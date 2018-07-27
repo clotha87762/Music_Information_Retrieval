@@ -1,0 +1,8 @@
+code分成四個section
+第一部分是Q1~Q3
+第二部分是Q4~Q5
+第三部分是Q6
+第四部份則是Bonus
+每部分執行完之後都會生成估測結果的檔案到目錄下
+記得要把ballroom dataset和data annotation的資料夾放在同一個目錄底下才能執行
+(然後因為我把三種rumba曲風弄在一起算，所以dataset必須要有一個Rumba資料夾包含所有的Rumba種類的曲子)

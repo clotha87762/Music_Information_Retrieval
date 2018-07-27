@@ -1,0 +1,27 @@
+Tango P-Score:0.046512
+Tango P-Score(T/2):0.95349
+Tango P-Score(T/3):0
+Tango P-Score(T/4):0
+Tango ALOTC-Score:0.76744
+Tango T2/T1 :2.6956
+Tango T1/Q :0.84934
+Tango T2/Q :1.9587
+----------------------------- 
+Waltz P-Score:0.57273
+Waltz P-Score(T/2):0.090909
+Waltz P-Score(T/3):0
+Waltz P-Score(T/4):0
+Waltz ALOTC-Score:0.62727
+Waltz T2/T1 :2.6312
+Waltz T1/Q :0.99603
+Waltz T2/Q :2.2769
+----------------------------- 
+Quickstep P-Score:0.87805
+Quickstep P-Score(T/2):0
+Quickstep P-Score(T/3):0
+Quickstep P-Score(T/4):0
+Quickstep ALOTC-Score:0.95122
+Quickstep T2/T1 :2.0357
+Quickstep T1/Q :0.54351
+Quickstep T2/Q :1.0443
+----------------------------- 

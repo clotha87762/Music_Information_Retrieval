@@ -1,0 +1,114 @@
+========================================================================
+              F A N  C H I R P  T R A N S F O R M  
+
+
+         Pablo Cancela, Ernesto López, Martín Rocamora
+
+        Universidad de la República Oriental del Uruguay
+
+========================================================================
+
+DATE: 2010
+
+CONTENTS:
+
+ - stfcht.m      : Short Time Fan Chirp Transform (FChT) code
+ - test_stfcht.m : example of stfcht.m usage
+ - c_code        : C code used in FChT computation (compile it)
+ - m_code        : Matlab code used in FChT computation
+
+NOTE: C code in c_code directory must be compiled using make_c.m script
+
+========================================================================
+ 
+CITATION AND REFERENCE
+
+@InProceedings{cancela10fan,
+   author = {Pablo Cancela and Ernesto López and Martín Rocamora},
+   title = {{Fan Chirp Transform for Music Representation}},
+   booktitle = {13th International Conference on Digital Audio Effects},
+   year = {2010}
+}
+
+========================================================================
+
+DESCRIPTION
+
+This code computes a Short Time Fan Chirp Transform (FChT). 
+A F0gram is also computed based on the FChT and a set of f0  
+candidates is returned for each audio frame.
+
+The F0gram code, as provided, is intended for main melody extraction.
+For this reason a f0 preference function is applied (but can be disabled).
+
+The code also enables the usage of a combination of the FChT and the  
+Constant Q-Transform.  
+
+For a complete description of the technique, as well as implementation
+details, see the REFERENCE.
+
+========================================================================
+
+USAGE
+
+* C code
+
+  Code under c_code folder must be compiled from Matlab/Octave
+  using the make_c.m script provided. 
+
+* Parameters
+
+  Parameters for the analysis are described and must be set in the 
+  set_parameters.m file. They are divided in sections. 
+
+  For a straightforward usage, set the appropriate values for your 
+  application in sections WARPING an F0-GRAM, and ignore the rest. 
+
+* FChT and F0gram computation 
+
+  The file test_stft.m is a simple usage example. It computes  
+  and displays the STFChT, the F0gram and the set of f0 candidates. 
+
+* Using main melody labeled music audio files
+
+  In case you have labeled audio files (a file is provided as an 
+  example), you can use the labels to estimate the optimum chirp 
+  rate, to ignore frames without melody, to evaluate f0 estimation 
+  performance or to learn the F0gram normalization model.
+
+  Some of these options are described in the DATABASE AND LABELS
+  parameters section in the set_parameters.m file.
+
+  In the m_code folder there are additional .m files to perform
+  some of these tasks:
+
+    * main_compute_predominant_pitch
+         processes a database of main melody labeled audio files 
+         (such as RWC or MIREX) and computes the FChT, the F0gram
+         and a set of main melody f0 estimates for each frame.
+
+    This f0 estimates can be evaluated using the following scripts
+
+    * main_visualize_individual_results
+         displays performance evaluation measures for a given file 
+
+    * main_visualize_global_results
+         displays performance evaluation measures for a whole database 
+
+* Learning F0gram normalization model
+  
+  For appropriate melodic content visualization the F0gram is 
+  normalized to zero mean and unit variance (see REFERENCE). 
+
+  The code provides default parameters for the normalization model
+  (that were computed using the complete RWC Popular Music Database).
+  However, you can compute a model for a different audio set, using
+  the main_learn_normalization_model.m script (in the m_code folder).
+
+* Octave compatibility
+
+  The code was tested in several Octave releases and it proved to 
+  work (although some visualization problems were encountered with 
+  regards to zooming). 
+
+

@@ -1,0 +1,12 @@
+整個程式分成四部分
+第一部分是抽出每首歌的Pitch
+
+第二部分是從Pitch抽出Chroma gram (可以調gamma值決定產生的chorma的log comprression factor)
+
+第三部分的第一種演算法的實作，會自動跑過全部的曲風並且印出曲風別和總和的準確率，並且會把預測的結果存成mat檔。
+把MIXED設成1的話就可以開啟容易混淆的音也會有分數的模式
+可以藉由調整logScale來改變要跑的是哪種log compression factor下產生出來的chroma gram。
+
+第四部份是第二種演算法的實作，參數的細節跟第三題一樣。
+
+(記得要把genres資料夾放到主目錄下，然後新建 mkey mpitch mchroma三個資料夾，這樣跑code的時候才有辦法把結果用mat檔存下來)

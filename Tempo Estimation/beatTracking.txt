@@ -1,0 +1,9 @@
+Quickstep  Precision:0.84663
+Quickstep  Recall:0.94276
+Quickstep  F-Score:0.88979
+Rumba  Precision:0.42845
+Rumba  Recall:0.98242
+Rumba  F-Score:0.59304
+Samba  Precision:0.25995
+Samba  Recall:0.97469
+Samba  F-Score:0.40767

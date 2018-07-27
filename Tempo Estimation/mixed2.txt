@@ -1,0 +1,72 @@
+ChaChaCha P-Score:0.81982
+ChaChaCha P-Score(T/2):0
+ChaChaCha P-Score(T/3):0
+ChaChaCha P-Score(T/4):0
+ChaChaCha ALOTC-Score:0.99099
+ChaChaCha T2/T1 :1.997
+ChaChaCha T1/Q :0.90972
+ChaChaCha T2/Q :1.8165
+----------------------------- 
+Jive P-Score:0.73333
+Jive P-Score(T/2):0
+Jive P-Score(T/3):0
+Jive P-Score(T/4):0
+Jive ALOTC-Score:0.73333
+Jive T2/T1 :2.1004
+Jive T1/Q :0.42824
+Jive T2/Q :0.8813
+----------------------------- 
+Quickstep P-Score:0.64634
+Quickstep P-Score(T/2):0
+Quickstep P-Score(T/3):0
+Quickstep P-Score(T/4):0
+Quickstep ALOTC-Score:0.64634
+Quickstep T2/T1 :1.957
+Quickstep T1/Q :0.44371
+Quickstep T2/Q :0.86719
+----------------------------- 
+Rumba P-Score:0.89796
+Rumba P-Score(T/2):0
+Rumba P-Score(T/3):0
+Rumba P-Score(T/4):0
+Rumba ALOTC-Score:0.94898
+Rumba T2/T1 :1.99
+Rumba T1/Q :0.96086
+Rumba T2/Q :1.9152
+----------------------------- 
+Samba P-Score:0.65116
+Samba P-Score(T/2):0.046512
+Samba P-Score(T/3):0
+Samba P-Score(T/4):0
+Samba ALOTC-Score:0.68605
+Samba T2/T1 :2.1526
+Samba T1/Q :0.9914
+Samba T2/Q :2.0263
+----------------------------- 
+Tango P-Score:0.5
+Tango P-Score(T/2):0.11628
+Tango P-Score(T/3):0
+Tango P-Score(T/4):0
+Tango ALOTC-Score:1
+Tango T2/T1 :2.2786
+Tango T1/Q :0.58689
+Tango T2/Q :1.237
+----------------------------- 
+VienneseWaltz P-Score:0.87692
+VienneseWaltz P-Score(T/2):0
+VienneseWaltz P-Score(T/3):0
+VienneseWaltz P-Score(T/4):0
+VienneseWaltz ALOTC-Score:0.87692
+VienneseWaltz T2/T1 :1.9785
+VienneseWaltz T1/Q :0.47795
+VienneseWaltz T2/Q :0.94597
+----------------------------- 
+Waltz P-Score:0.57273
+Waltz P-Score(T/2):0
+Waltz P-Score(T/3):0
+Waltz P-Score(T/4):0
+Waltz ALOTC-Score:0.84545
+Waltz T2/T1 :1.9626
+Waltz T1/Q :0.84103
+Waltz T2/Q :1.6306
+----------------------------- 
